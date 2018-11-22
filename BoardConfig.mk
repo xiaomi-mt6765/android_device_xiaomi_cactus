@@ -48,5 +48,7 @@ TARGET_SCREEN_HEIGHT := 1440
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEVICE_VERSION := $(shell date -u +"%Y%m%d")
-# TW_ALWAYS_RMRF := true
+TW_ALWAYS_RMRF := true
 
+# Vold
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.0/file
