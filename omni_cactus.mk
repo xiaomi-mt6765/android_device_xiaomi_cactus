@@ -20,6 +20,3 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/xiaomi/cactus/full_cactus.mk)
 
 PRODUCT_NAME := omni_cactus
-
-PRODUCT_COPY_FILES += \
-    device/xiaomi/cactus/recovery.fstab:recovery/root/recovery.fstab
