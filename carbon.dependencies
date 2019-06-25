@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "xiaomi-mt6765/android_device_xiaomi_mt6765-common",
+    "target_path": "device/xiaomi/mt6765-common",
+    "revision": "lineage-15.1",
+    "remote": "gh"
+  },
+  {
+    "repository": "xiaomi-mt6765/android_kernel_xiaomi_mt6765",
+    "target_path": "kernel/xiaomi/mt6765",
+    "revision": "lineage-15.1",
+    "remote": "gh"
+  },
+  {
+    "repository": "xiaomi-mt6765/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "revision": "lineage-15.1",
+    "remote": "gh"
+  }
+]
