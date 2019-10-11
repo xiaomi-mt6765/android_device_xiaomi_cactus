@@ -3,8 +3,4 @@
     "repository": "android_device_xiaomi_mt6765-common",
     "target_path": "device/xiaomi/mt6765-common"
   },
-  /*{
-    "repository": "android_kernel_xiaomi_mt6765",
-    "target_path": "kernel/xiaomi/mt6765"
-  }*/
 ]
