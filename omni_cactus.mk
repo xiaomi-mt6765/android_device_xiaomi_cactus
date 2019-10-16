@@ -15,8 +15,15 @@
 #
 
 # Inherit from our custom product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/xiaomi/cactus/full_cactus.mk)
-
+PRODUCT_DEVICE := cactus
 PRODUCT_NAME := omni_cactus
+PRODUCT_BRAND := xiaomi
+PRODUCT_MODEL := Redmi 6A
+PRODUCT_MANUFACTURER := Xiaomi
+
+# Resolution
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1440
