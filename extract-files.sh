@@ -24,3 +24,7 @@ export VENDOR=xiaomi
 export DEVICE_BRINGUP_YEAR=2019
 
 ./"../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" $@
+
+BLOB_ROOT="${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
+
+sed -i 's/AT+EAIC=2/AT+EAIC=3/g' "${BLOB_ROOT}/lib/libmtk-ril.so"
