@@ -1,4 +1,4 @@
 # Proprietary files for cactus
 
 # RIL
-vendor/lib/libmtk-ril.so:lib/libmtk-ril.so|e9d80dbed4a83df78dd0cfb3e40733b6b2943703
+vendor/lib/libmtk-ril.so:lib/libmtk-ril.so|c33b920a5e18bb3b4940f5cf555febeeec4004b4
