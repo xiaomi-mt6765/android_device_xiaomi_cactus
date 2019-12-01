@@ -19,6 +19,7 @@ $(call inherit-product, device/xiaomi/cactus/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/dot/config/telephony.mk)
 
 # Device identifier. This must come after all inclusions
 
