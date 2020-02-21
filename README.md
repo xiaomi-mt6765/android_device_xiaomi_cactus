@@ -4,7 +4,7 @@ Device configuration for Xiaomi Redmi 6A (cactus)
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Quad-core 2.0 GHz Cortex-A53
-Chipset | Mediatek MT6761/MT6762m Helio A22
+Chipset | Mediatek MT6762m Helio A22
 GPU     | 650MHz PowerVR GE8320
 Memory  | 2/3 GB
 Shipped Android Version | 8.1 (Oreo MR1) with MIUI 9
