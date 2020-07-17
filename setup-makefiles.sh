@@ -17,10 +17,11 @@
 
 set -e
 
+# Required!
 export DEVICE=cactus
 export DEVICE_COMMON=mt6765-common
 export VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2019
 
-./"../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" $@
+"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
